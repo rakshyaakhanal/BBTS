@@ -1,0 +1,80 @@
+.values {
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+    margin: 5px;
+    font-style: normal;
+}
+
+.values .col1 {
+    float: left;
+    width: 50%;
+}
+
+.values h3 {
+    color: #0B82DC;
+}
+
+.values h4 {
+    color: #3D4246;
+}
+
+.values .vdata-brand {
+    display: flex;
+    gap: 8rem;
+    padding: 6px;
+}
+
+.values .vdata-modelyear {
+    display: flex;
+    gap: 4.9rem;
+    padding: 6px;
+}
+
+.values .vdata-number {
+    display: flex;
+    gap: 6.9rem;
+    padding: 6px;
+}
+
+.values .vdata-engineno {
+    display: flex;
+    gap: 5.3rem;
+    padding: 6px;
+}
+
+.values .vdata-expirydate {
+    display: flex;
+    gap: 4.7rem;
+    padding: 6px;
+}
+
+.values .vdata-model {
+    display: flex;
+    gap: 7.9rem;
+    padding: 6px;
+}
+
+.values .vdata-name {
+    display: flex;
+    gap: 8.3rem;
+    padding: 6px;
+}
+
+.values .vdata-chesisno {
+    display: flex;
+    gap: 5.5rem;
+    padding: 6px;
+}
+
+.values .vdata-color {
+    display: flex;
+    gap: 8.4rem;
+    padding: 6px;
+}
+
+.values .vdata-status {
+    display: flex;
+    gap: 8rem;
+    padding: 6px;
+}

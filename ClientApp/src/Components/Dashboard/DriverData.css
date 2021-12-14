@@ -1,0 +1,32 @@
+.value {
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+    color: #292F33;
+    margin: 10px;
+ }
+ 
+ .value .ddata-name {
+     display: flex;
+     gap: 4rem;
+     padding: 3px;   
+}   
+   
+ .value .ddata-address {
+     display: flex;
+     gap: 2.7rem; 
+     padding: 3px;
+}
+   
+ .value .ddata-gender {
+     display: flex;
+     gap: 3.2rem; 
+     padding: 3px;
+
+}
+   
+   .value .ddata-phoneno {
+    display: flex;
+    gap: 1.9rem; 
+    padding: 3px;
+}

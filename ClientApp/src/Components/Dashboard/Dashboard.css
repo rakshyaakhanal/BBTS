@@ -1,0 +1,366 @@
+.main-div {
+    flex :4;
+    width: 105vw;
+    height: 190vh;
+    background-color: #E5E5E5;
+    /* left: 210px; */
+    /* top: 60px; */
+    position: relative;
+  }
+
+  .overview {
+    position: absolute;
+    left: 313px;
+    top: 80px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px; 
+  }
+
+  .vehicle {
+    position: absolute;
+    width: 785px;
+    height: 222px;
+    left: 313px;
+    top: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+  }
+
+  .vehicle h2 {
+    position: absolute;
+    left: 3.68%;
+    right: 90.06%;
+    top: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .vehicle .vehicle-box {
+    position: absolute;
+    width: 460px;
+    height: 167px;
+    left: 2.68%;
+    top: 45px;
+  }
+
+  .vehicle .vehicle-image {
+    position: absolute;
+    width: 277.3px;
+    height: 167px;
+    left: 500px;
+    top: 41px;
+  }
+
+  .owner {
+    position: absolute;
+    width: 376px;
+    height: 188px;
+    left: 313px;
+    top: 376px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+  }
+
+  .owner h2 {
+    position: absolute;
+    left: 4.68%;
+    right: 140.22%;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .owner .owner-image {
+    position: absolute;
+    width: 107px;
+    height: 110px;
+    left: 4.68%;
+    top: 45px;
+    border-radius: 10px
+  }
+
+  .owner .owner-box {
+    position: absolute;
+    width: 209px;
+    height: 110px;
+    left: 38%;
+    top: 45px;
+    background: rgba(217, 219, 233, 0.3);
+    border-radius: 10px;
+  }
+
+  .driver {
+    position: absolute;
+    width: 376px;
+    height: 188px;
+    left: 722px;
+    top: 376px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+  }
+
+  .driver h2 {
+    position: absolute;
+    left: 4.68%;
+    right: 147.49%;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .driver .driver-image {
+    position: absolute;
+    width: 107px;
+    height: 110px;
+    left: 4.68%;
+    top: 45px;
+    border-radius: 10px
+  }
+
+  .driver .driver-box {
+    position: absolute;
+    width: 209px;
+    height: 110px;
+    left: 38%;
+    top: 45px;
+    background: rgba(217, 219, 233, 0.3);
+    border-radius: 10px;
+  }
+
+  .all-details {
+    position: absolute;
+    width: 286px;
+    height: 444px;
+    left: 1126px;
+    top: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+  }
+
+.all-details .add-vehicle {
+    position: absolute;
+    width: 248px;
+    height: 94px;
+    left: 19px;
+    top: 19px;
+    background: #F4900C;
+    box-shadow: 0px 1.33227px 6.66137px rgba(0, 0, 0, 0.18);
+    border-radius: 3.33068px;
+}
+
+.all-details .add-vehicle .vehicle-icon {
+  position: absolute;
+  left: 38%;
+  top: 16%;
+}
+
+.all-details .add-vehicle .vehicle-logo {
+  position: absolute;
+  left: 36.29%;
+  right: 36.04%;
+  top: 77.95%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.9905px;
+  line-height: 10px;
+  color: #FFFFFF;
+}
+
+.all-details .add-levy {
+    position: absolute;
+    width: 248px;
+    height: 94px;
+    left: 19px;
+    top: 123px;
+    background: #00B749;
+    box-shadow: 0px 1.33227px 6.66137px rgba(0, 0, 0, 0.18);
+    border-radius: 3.33068px;
+}
+
+.all-details .add-levy .levy-icon {
+  position: absolute;
+  left: 39%;
+  top: 16%;
+}
+
+.all-details .add-levy .levy-logo {
+   position: absolute;
+   left: 39.02%;
+   right: 39.04%;
+   top: 77.63%;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 11.9905px;
+   line-height: 10px;
+   color: #FFFFFF;
+}
+
+.all-details .add-owner {
+    position: absolute;
+    width: 248px;
+    height: 94px;
+    left: 19px;
+    top: 227px;
+    background: #E64068;
+    box-shadow: 0px 1.33227px 6.66137px rgba(0, 0, 0, 0.18);
+    border-radius: 3.33068px;
+}
+
+.all-details .add-owner .owner-icon {
+  position: absolute;
+  left: 39%;
+  top: 16%;
+}
+
+.all-details .add-owner .owner-logo {
+  position: absolute;
+  left: 36.99%;
+  right: 36.74%;
+  top: 78.1%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.9905px;
+  line-height: 10px;
+  color: #FFFFFF;
+}
+
+.all-details .add-driver {
+    position: absolute;
+    width: 248px;
+    height: 94px;
+    left: 19px;
+    top: 331px;
+    background: #0B82DC;
+    box-shadow: 0px 1.33227px 6.66137px rgba(0, 0, 0, 0.18);
+    border-radius: 3.33068px;
+}
+
+.all-details .add-driver .driver-icon {
+  position: absolute;
+  left: 39%;
+  top: 16%;
+}
+
+.all-details .add-driver .driver-logo {
+  position: absolute;
+  left: 37.4%;
+  right: 37.69%;
+  top: 78.03%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.9905px;
+  line-height: 10px;
+  color: #FFFFFF;
+}
+
+  .levy-details {
+    position: absolute;
+    width: 1099px;
+    height: 542px;
+    left: 313px;
+    top: 598px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+  }
+
+  .levy-details .title {
+    position: absolute;
+    left: 2.08%;
+    top: 2.1%;
+    right: 96.5%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px; 
+  }
+
+  .levy-details .chooseyear {
+    position: absolute;
+    left: 71.5%;
+    top: 2.1%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 28px;
+    color: #292F33;
+ }
+
+ .levy-details .selectyear {
+  position: absolute;
+  left: 80%;
+  top: 3.1%;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 12px;
+ }
+
+ .levy-details .show {
+  position: absolute;
+  left: 88%;
+  top: 2.1%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 28px;
+  color: #292F33;
+}
+
+.levy-details .selectshow {
+  position: absolute;
+  left: 92%;
+  top: 3.1%;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 12px;
+ }
+
+  .levy-details .table {
+    position: absolute;
+    left: 2.08%;
+    top: 10%;
+  }
+
+  .levy-details .table, th, td  {
+    border: 1.67116px solid #999B9F;
+    box-sizing: border-box;
+    width: 1050px;
+    height: 33px;
+    align-items: center;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  .levy-details th{
+    color: #0B82DC;
+    font-size: 18.7264px;
+    font-family: Inter;
+  }
+
+  .levy-details td{
+    font-size: 16.6457px;
+    font-family: Inter;
+  }

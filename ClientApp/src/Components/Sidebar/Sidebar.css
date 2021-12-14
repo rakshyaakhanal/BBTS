@@ -1,0 +1,51 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  body {
+  margin: 0;
+  padding: 0;  
+  }
+  
+  .Sidebar {
+    flex: 1;
+    height: 90%;
+    width: 210px;
+    background-color: #01081E;
+  }
+  
+  .SidebarList {
+    height: auto;
+    padding: 0;
+    width: 210px;
+    font-size: 16px;
+  }
+  
+  .SidebarList .row {
+    width: 210px;
+    height: 50px;
+    color: #7C95AF;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Inter;
+    align-items: center;  
+  }
+  
+  .Sidebar .row:hover {
+    cursor: pointer;
+    background-color: #0F2B44;
+  }
+  
+  .row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .row #title {
+    flex: 70%;
+  }

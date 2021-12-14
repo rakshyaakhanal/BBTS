@@ -1,26 +1,28 @@
-import React, { Component } from 'react';
-import { Route } from 'react-router';
-import { Layout } from './components/Layout';
-import { Home } from './components/Home';
-import { FetchData } from './components/FetchData';
-import { Counter } from './components/Counter';
-import AuthorizeRoute from './components/api-authorization/AuthorizeRoute';
-import ApiAuthorizationRoutes from './components/api-authorization/ApiAuthorizationRoutes';
-import { ApplicationPaths } from './components/api-authorization/ApiAuthorizationConstants';
+import React from 'react';
+import Sidebar from './Components/Sidebar/Sidebar';
+import "./Components/Sidebar/Sidebar.css";
+import Navbar from './Components/Navbar/Navbar';
+import Dashboard from './Components/Dashboard/Dashboard';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import FunctionalComponentDemo from "./Components/FunctionalComponentDemo";
 
-import './custom.css'
+const App = () => {
+  return (
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route exact path="/FunctionalComponentDemo" element={<FunctionalComponentDemo />} />
+    //     <Route exact path="/Navbar" element={<Navbar />} />
+    //     <Route exact path="/Sidebar" element={<Sidebar />} />
+    //     <Route exact path="/Dashboard" element={<Dashboard />} />
+    //   </Routes>
+    // </BrowserRouter>
+<>
+  <Navbar />
+  <Sidebar />
+  {/* <Dashboard /> */}
+</>
 
-export default class App extends Component {
-  static displayName = App.name;
-
-  render () {
-    return (
-      <Layout>
-        <Route exact path='/' component={Home} />
-        <Route path='/counter' component={Counter} />
-        <AuthorizeRoute path='/fetch-data' component={FetchData} />
-        <Route path={ApplicationPaths.ApiAuthorizationPrefix} component={ApiAuthorizationRoutes} />
-      </Layout>
-    );
-  }
+  )
 }
+
+export default App;
